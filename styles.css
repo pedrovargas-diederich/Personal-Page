@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+header
+{
+    background-color: #252427;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    border-bottom: white solid 1px;
+}
+
+h1{
+    color: white;
+    display: inline-block;
+}
+
+h1:hover{
+    color: turquoise;
+}
+
+
+nav
+{
+    background-color: #252427;
+    height: 75px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+ul li a:hover{
+    color: turquoise;
+    border: 0.5px white solid;
+    padding: 10px;
+}
+
+main
+{
+    background-color: #ACAAAE;
+    height: 800px;
+}
+.p-footer{
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+#p-first-footer{
+    float: left;
+    margin: 0;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+#p-copyright{
+    float: right;
+    margin: 0;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+
+footer
+{
+    height: 75px;
+    background-color: #4e4d50;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
